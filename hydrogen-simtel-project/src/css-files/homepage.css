@@ -1,0 +1,28 @@
+#app img {
+    max-width: 100%;
+    max-height: 80%; 
+    width: auto; 
+    height: auto;
+    object-fit: contain; 
+    flex-shrink: 0;
+    position: relative;
+    top: -40px;
+  }
+  
+#sim-title{
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    bottom: 170px;
+    z-index: 1;
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000f0c;
+    
+  }
+  #rel{
+    position: relative;
+  }
+  
